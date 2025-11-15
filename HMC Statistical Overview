@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "006dc1ac",
+   "id": "060646c2",
    "metadata": {
     "papermill": {
-     "duration": 0.004427,
-     "end_time": "2025-11-15T11:24:02.136916",
+     "duration": 0.006558,
+     "end_time": "2025-11-15T11:37:48.242671",
      "exception": false,
-     "start_time": "2025-11-15T11:24:02.132489",
+     "start_time": "2025-11-15T11:37:48.236113",
      "status": "completed"
     },
     "tags": []
@@ -20,19 +20,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "f59e30c1",
+   "id": "5cda9c5d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:02.145195Z",
-     "iopub.status.busy": "2025-11-15T11:24:02.144880Z",
-     "iopub.status.idle": "2025-11-15T11:24:16.912858Z",
-     "shell.execute_reply": "2025-11-15T11:24:16.911906Z"
+     "iopub.execute_input": "2025-11-15T11:37:48.252989Z",
+     "iopub.status.busy": "2025-11-15T11:37:48.252270Z",
+     "iopub.status.idle": "2025-11-15T11:38:04.990232Z",
+     "shell.execute_reply": "2025-11-15T11:38:04.989498Z"
     },
     "papermill": {
-     "duration": 14.773926,
-     "end_time": "2025-11-15T11:24:16.914352",
+     "duration": 16.744844,
+     "end_time": "2025-11-15T11:38:04.991645",
      "exception": false,
-     "start_time": "2025-11-15T11:24:02.140426",
+     "start_time": "2025-11-15T11:37:48.246801",
      "status": "completed"
     },
     "tags": []
@@ -47,7 +47,7 @@
       "Requirement already satisfied: numpy==1.26.4 in /usr/local/lib/python3.11/dist-packages (1.26.4)\r\n",
       "Collecting scipy==1.13.0\r\n",
       "  Downloading scipy-1.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m60.6/60.6 kB\u001b[0m \u001b[31m2.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m60.6/60.6 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hCollecting scikit-learn==1.5.0\r\n",
       "  Downloading scikit_learn-1.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)\r\n",
       "Requirement already satisfied: imbalanced-learn==0.13.0 in /usr/local/lib/python3.11/dist-packages (0.13.0)\r\n",
@@ -105,11 +105,11 @@
       "Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.11/dist-packages (from rich->keras>=3.5.0->tensorflow==2.18.0) (2.19.2)\r\n",
       "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich->keras>=3.5.0->tensorflow==2.18.0) (0.1.2)\r\n",
       "Downloading scipy-1.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m38.6/38.6 MB\u001b[0m \u001b[31m47.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m38.6/38.6 MB\u001b[0m \u001b[31m35.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading scikit_learn-1.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.3 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m13.3/13.3 MB\u001b[0m \u001b[31m105.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m13.3/13.3 MB\u001b[0m \u001b[31m64.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading protobuf-5.29.5-cp38-abi3-manylinux2014_x86_64.whl (319 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m319.9/319.9 kB\u001b[0m \u001b[31m19.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m319.9/319.9 kB\u001b[0m \u001b[31m17.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: protobuf, scipy, scikit-learn\r\n",
       "  Attempting uninstall: protobuf\r\n",
       "    Found existing installation: protobuf 6.33.0\r\n",
@@ -157,19 +157,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "f7a0530d",
+   "id": "9ae826eb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:16.925911Z",
-     "iopub.status.busy": "2025-11-15T11:24:16.925668Z",
-     "iopub.status.idle": "2025-11-15T11:24:36.360709Z",
-     "shell.execute_reply": "2025-11-15T11:24:36.360111Z"
+     "iopub.execute_input": "2025-11-15T11:38:05.003473Z",
+     "iopub.status.busy": "2025-11-15T11:38:05.003229Z",
+     "iopub.status.idle": "2025-11-15T11:38:28.203958Z",
+     "shell.execute_reply": "2025-11-15T11:38:28.202950Z"
     },
     "papermill": {
-     "duration": 19.442204,
-     "end_time": "2025-11-15T11:24:36.362028",
+     "duration": 23.208397,
+     "end_time": "2025-11-15T11:38:28.205763",
      "exception": false,
-     "start_time": "2025-11-15T11:24:16.919824",
+     "start_time": "2025-11-15T11:38:04.997366",
      "status": "completed"
     },
     "tags": []
@@ -179,10 +179,10 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "2025-11-15 11:24:21.638268: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n",
+      "2025-11-15 11:38:11.097408: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n",
       "WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n",
-      "E0000 00:00:1763205861.841744      19 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n",
-      "E0000 00:00:1763205861.888345      19 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"
+      "E0000 00:00:1763206691.362188      19 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n",
+      "E0000 00:00:1763206691.430503      19 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"
      ]
     }
    ],
@@ -198,19 +198,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "47c0c924",
+   "id": "d693e5da",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:36.373635Z",
-     "iopub.status.busy": "2025-11-15T11:24:36.373235Z",
-     "iopub.status.idle": "2025-11-15T11:24:36.376547Z",
-     "shell.execute_reply": "2025-11-15T11:24:36.375924Z"
+     "iopub.execute_input": "2025-11-15T11:38:28.220349Z",
+     "iopub.status.busy": "2025-11-15T11:38:28.219885Z",
+     "iopub.status.idle": "2025-11-15T11:38:28.224346Z",
+     "shell.execute_reply": "2025-11-15T11:38:28.223527Z"
     },
     "papermill": {
-     "duration": 0.010188,
-     "end_time": "2025-11-15T11:24:36.377571",
+     "duration": 0.012907,
+     "end_time": "2025-11-15T11:38:28.225451",
      "exception": false,
-     "start_time": "2025-11-15T11:24:36.367383",
+     "start_time": "2025-11-15T11:38:28.212544",
      "status": "completed"
     },
     "tags": []
@@ -225,19 +225,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "5fdff368",
+   "id": "97b020e9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:36.388152Z",
-     "iopub.status.busy": "2025-11-15T11:24:36.387916Z",
-     "iopub.status.idle": "2025-11-15T11:24:36.778844Z",
-     "shell.execute_reply": "2025-11-15T11:24:36.777971Z"
+     "iopub.execute_input": "2025-11-15T11:38:28.241767Z",
+     "iopub.status.busy": "2025-11-15T11:38:28.241037Z",
+     "iopub.status.idle": "2025-11-15T11:38:28.697931Z",
+     "shell.execute_reply": "2025-11-15T11:38:28.696868Z"
     },
     "papermill": {
-     "duration": 0.397587,
-     "end_time": "2025-11-15T11:24:36.780038",
+     "duration": 0.468456,
+     "end_time": "2025-11-15T11:38:28.699334",
      "exception": false,
-     "start_time": "2025-11-15T11:24:36.382451",
+     "start_time": "2025-11-15T11:38:28.230878",
      "status": "completed"
     },
     "tags": []
@@ -268,19 +268,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "30afb6a3",
+   "id": "ebe36997",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:36.791784Z",
-     "iopub.status.busy": "2025-11-15T11:24:36.791029Z",
-     "iopub.status.idle": "2025-11-15T11:24:36.795143Z",
-     "shell.execute_reply": "2025-11-15T11:24:36.794390Z"
+     "iopub.execute_input": "2025-11-15T11:38:28.711963Z",
+     "iopub.status.busy": "2025-11-15T11:38:28.711105Z",
+     "iopub.status.idle": "2025-11-15T11:38:28.715246Z",
+     "shell.execute_reply": "2025-11-15T11:38:28.714705Z"
     },
     "papermill": {
-     "duration": 0.011073,
-     "end_time": "2025-11-15T11:24:36.796380",
+     "duration": 0.011612,
+     "end_time": "2025-11-15T11:38:28.716305",
      "exception": false,
-     "start_time": "2025-11-15T11:24:36.785307",
+     "start_time": "2025-11-15T11:38:28.704693",
      "status": "completed"
     },
     "tags": []
@@ -298,19 +298,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "a6461694",
+   "id": "dfe3c2ed",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:36.807367Z",
-     "iopub.status.busy": "2025-11-15T11:24:36.806886Z",
-     "iopub.status.idle": "2025-11-15T11:24:37.680031Z",
-     "shell.execute_reply": "2025-11-15T11:24:37.679421Z"
+     "iopub.execute_input": "2025-11-15T11:38:28.727629Z",
+     "iopub.status.busy": "2025-11-15T11:38:28.727402Z",
+     "iopub.status.idle": "2025-11-15T11:38:29.752389Z",
+     "shell.execute_reply": "2025-11-15T11:38:29.751708Z"
     },
     "papermill": {
-     "duration": 0.880011,
-     "end_time": "2025-11-15T11:24:37.681418",
+     "duration": 1.032263,
+     "end_time": "2025-11-15T11:38:29.753842",
      "exception": false,
-     "start_time": "2025-11-15T11:24:36.801407",
+     "start_time": "2025-11-15T11:38:28.721579",
      "status": "completed"
     },
     "tags": []
@@ -327,13 +327,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "41abd79e",
+   "id": "3fdd87ca",
    "metadata": {
     "papermill": {
-     "duration": 0.005076,
-     "end_time": "2025-11-15T11:24:37.691837",
+     "duration": 0.005026,
+     "end_time": "2025-11-15T11:38:29.764525",
      "exception": false,
-     "start_time": "2025-11-15T11:24:37.686761",
+     "start_time": "2025-11-15T11:38:29.759499",
      "status": "completed"
     },
     "tags": []
@@ -343,13 +343,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "403c2794",
+   "id": "f9f13dfe",
    "metadata": {
     "papermill": {
-     "duration": 0.004966,
-     "end_time": "2025-11-15T11:24:37.701801",
+     "duration": 0.004929,
+     "end_time": "2025-11-15T11:38:29.774658",
      "exception": false,
-     "start_time": "2025-11-15T11:24:37.696835",
+     "start_time": "2025-11-15T11:38:29.769729",
      "status": "completed"
     },
     "tags": []
@@ -377,19 +377,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "ebcb31a3",
+   "id": "b0b2d395",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:37.713270Z",
-     "iopub.status.busy": "2025-11-15T11:24:37.712817Z",
-     "iopub.status.idle": "2025-11-15T11:24:41.163610Z",
-     "shell.execute_reply": "2025-11-15T11:24:41.162404Z"
+     "iopub.execute_input": "2025-11-15T11:38:29.786601Z",
+     "iopub.status.busy": "2025-11-15T11:38:29.786136Z",
+     "iopub.status.idle": "2025-11-15T11:38:33.627405Z",
+     "shell.execute_reply": "2025-11-15T11:38:33.626426Z"
     },
     "papermill": {
-     "duration": 3.457993,
-     "end_time": "2025-11-15T11:24:41.164854",
+     "duration": 3.849278,
+     "end_time": "2025-11-15T11:38:33.629103",
      "exception": false,
-     "start_time": "2025-11-15T11:24:37.706861",
+     "start_time": "2025-11-15T11:38:29.779825",
      "status": "completed"
     },
     "tags": []
@@ -612,13 +612,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "190cf709",
+   "id": "ec08257f",
    "metadata": {
     "papermill": {
-     "duration": 0.005386,
-     "end_time": "2025-11-15T11:24:41.175920",
+     "duration": 0.005575,
+     "end_time": "2025-11-15T11:38:33.640365",
      "exception": false,
-     "start_time": "2025-11-15T11:24:41.170534",
+     "start_time": "2025-11-15T11:38:33.634790",
      "status": "completed"
     },
     "tags": []
@@ -629,19 +629,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "c1c008f1",
+   "id": "a8a83ae1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:41.187564Z",
-     "iopub.status.busy": "2025-11-15T11:24:41.187357Z",
-     "iopub.status.idle": "2025-11-15T11:24:44.956516Z",
-     "shell.execute_reply": "2025-11-15T11:24:44.955854Z"
+     "iopub.execute_input": "2025-11-15T11:38:33.652395Z",
+     "iopub.status.busy": "2025-11-15T11:38:33.652085Z",
+     "iopub.status.idle": "2025-11-15T11:38:37.548384Z",
+     "shell.execute_reply": "2025-11-15T11:38:37.547571Z"
     },
     "papermill": {
-     "duration": 3.77663,
-     "end_time": "2025-11-15T11:24:44.957658",
+     "duration": 3.904078,
+     "end_time": "2025-11-15T11:38:37.549580",
      "exception": false,
-     "start_time": "2025-11-15T11:24:41.181028",
+     "start_time": "2025-11-15T11:38:33.645502",
      "status": "completed"
     },
     "tags": []
@@ -895,13 +895,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ba03990e",
+   "id": "4d7a045c",
    "metadata": {
     "papermill": {
-     "duration": 0.006897,
-     "end_time": "2025-11-15T11:24:44.972103",
+     "duration": 0.006788,
+     "end_time": "2025-11-15T11:38:37.563797",
      "exception": false,
-     "start_time": "2025-11-15T11:24:44.965206",
+     "start_time": "2025-11-15T11:38:37.557009",
      "status": "completed"
     },
     "tags": []
@@ -937,13 +937,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "468a45bd",
+   "id": "72dc76b3",
    "metadata": {
     "papermill": {
-     "duration": 0.00649,
-     "end_time": "2025-11-15T11:24:44.984963",
+     "duration": 0.006594,
+     "end_time": "2025-11-15T11:38:37.577272",
      "exception": false,
-     "start_time": "2025-11-15T11:24:44.978473",
+     "start_time": "2025-11-15T11:38:37.570678",
      "status": "completed"
     },
     "tags": []
@@ -963,19 +963,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "55b911a1",
+   "id": "77b293f3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:44.999854Z",
-     "iopub.status.busy": "2025-11-15T11:24:44.999651Z",
-     "iopub.status.idle": "2025-11-15T11:24:47.832684Z",
-     "shell.execute_reply": "2025-11-15T11:24:47.831935Z"
+     "iopub.execute_input": "2025-11-15T11:38:37.592870Z",
+     "iopub.status.busy": "2025-11-15T11:38:37.592571Z",
+     "iopub.status.idle": "2025-11-15T11:38:40.859373Z",
+     "shell.execute_reply": "2025-11-15T11:38:40.858372Z"
     },
     "papermill": {
-     "duration": 2.842089,
-     "end_time": "2025-11-15T11:24:47.833834",
+     "duration": 3.276094,
+     "end_time": "2025-11-15T11:38:40.860631",
      "exception": false,
-     "start_time": "2025-11-15T11:24:44.991745",
+     "start_time": "2025-11-15T11:38:37.584537",
      "status": "completed"
     },
     "tags": []
@@ -1134,19 +1134,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "34d5bfc4",
+   "id": "ec860b52",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:47.851000Z",
-     "iopub.status.busy": "2025-11-15T11:24:47.850544Z",
-     "iopub.status.idle": "2025-11-15T11:24:52.847740Z",
-     "shell.execute_reply": "2025-11-15T11:24:52.846900Z"
+     "iopub.execute_input": "2025-11-15T11:38:40.878517Z",
+     "iopub.status.busy": "2025-11-15T11:38:40.878230Z",
+     "iopub.status.idle": "2025-11-15T11:38:46.187071Z",
+     "shell.execute_reply": "2025-11-15T11:38:46.186320Z"
     },
     "papermill": {
-     "duration": 5.007215,
-     "end_time": "2025-11-15T11:24:52.848974",
+     "duration": 5.31946,
+     "end_time": "2025-11-15T11:38:46.188233",
      "exception": false,
-     "start_time": "2025-11-15T11:24:47.841759",
+     "start_time": "2025-11-15T11:38:40.868773",
      "status": "completed"
     },
     "tags": []
@@ -1545,13 +1545,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c879c3fc",
+   "id": "6b2ef3a6",
    "metadata": {
     "papermill": {
-     "duration": 0.012684,
-     "end_time": "2025-11-15T11:24:52.875667",
+     "duration": 0.012906,
+     "end_time": "2025-11-15T11:38:46.215383",
      "exception": false,
-     "start_time": "2025-11-15T11:24:52.862983",
+     "start_time": "2025-11-15T11:38:46.202477",
      "status": "completed"
     },
     "tags": []
@@ -1588,13 +1588,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c7124872",
+   "id": "c572447d",
    "metadata": {
     "papermill": {
-     "duration": 0.012696,
-     "end_time": "2025-11-15T11:24:52.900902",
+     "duration": 0.013734,
+     "end_time": "2025-11-15T11:38:46.242528",
      "exception": false,
-     "start_time": "2025-11-15T11:24:52.888206",
+     "start_time": "2025-11-15T11:38:46.228794",
      "status": "completed"
     },
     "tags": []
@@ -1614,13 +1614,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5488a1fa",
+   "id": "f70f7bd6",
    "metadata": {
     "papermill": {
-     "duration": 0.012379,
-     "end_time": "2025-11-15T11:24:52.926118",
+     "duration": 0.01259,
+     "end_time": "2025-11-15T11:38:46.267897",
      "exception": false,
-     "start_time": "2025-11-15T11:24:52.913739",
+     "start_time": "2025-11-15T11:38:46.255307",
      "status": "completed"
     },
     "tags": []
@@ -1635,13 +1635,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "05182a3a",
+   "id": "5e0c58b2",
    "metadata": {
     "papermill": {
-     "duration": 0.012505,
-     "end_time": "2025-11-15T11:24:52.951385",
+     "duration": 0.013294,
+     "end_time": "2025-11-15T11:38:46.294358",
      "exception": false,
-     "start_time": "2025-11-15T11:24:52.938880",
+     "start_time": "2025-11-15T11:38:46.281064",
      "status": "completed"
     },
     "tags": []
@@ -1661,19 +1661,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "1bf3503c",
+   "id": "eb84fbf6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-11-15T11:24:52.978206Z",
-     "iopub.status.busy": "2025-11-15T11:24:52.977945Z",
-     "iopub.status.idle": "2025-11-15T11:24:55.516104Z",
-     "shell.execute_reply": "2025-11-15T11:24:55.515505Z"
+     "iopub.execute_input": "2025-11-15T11:38:46.322018Z",
+     "iopub.status.busy": "2025-11-15T11:38:46.321656Z",
+     "iopub.status.idle": "2025-11-15T11:38:49.042386Z",
+     "shell.execute_reply": "2025-11-15T11:38:49.041718Z"
     },
     "papermill": {
-     "duration": 2.553202,
-     "end_time": "2025-11-15T11:24:55.517167",
+     "duration": 2.736539,
+     "end_time": "2025-11-15T11:38:49.043537",
      "exception": false,
-     "start_time": "2025-11-15T11:24:52.963965",
+     "start_time": "2025-11-15T11:38:46.306998",
      "status": "completed"
     },
     "tags": []
@@ -1693,9 +1693,9 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n",
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n"
      ]
     },
@@ -1710,9 +1710,9 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n",
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n"
      ]
     },
@@ -1727,7 +1727,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n"
      ]
     },
@@ -1742,13 +1742,13 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n",
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n",
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n",
-      "/tmp/ipykernel_19/3428444126.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
+      "/tmp/ipykernel_19/1765155097.py:69: MatplotlibDeprecationWarning: Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.\n",
       "  plt.subplot(1, n_feats, i)\n"
      ]
     },
@@ -1983,25 +1983,25 @@
     "# --------------------------------------------------\n",
     "plot_category_boxplots(\n",
     "    activity_cols,\n",
-    "    \"Daily activity on hypoglycaemic vs non-hypoglycaemic days\",\n",
+    "    \"Daily activity on hypo vs non-hypo days\",\n",
     "    \"boxplot_activity.png\",\n",
     ")\n",
     "\n",
     "plot_category_boxplots(\n",
     "    cgm_cols,\n",
-    "    \"CGM metrics on hypoglycaemic vs non-hypoglycaemic days\",\n",
+    "    \"CGM metrics on hypo vs non-hypo days\",\n",
     "    \"boxplot_cgm.png\",\n",
     ")\n",
     "\n",
     "plot_category_boxplots(\n",
     "    cardio_cols,\n",
-    "    \"Cardiovascular physiology on hypoglycaemic vs non-hypoglycaemic days\",\n",
+    "    \"Cardiovascular physiology on hypo vs non-hypo days\",\n",
     "    \"boxplot_cardio.png\",\n",
     ")\n",
     "\n",
     "plot_category_boxplots(\n",
     "    sleep_cols,\n",
-    "    \"Sleep structure on hypoglycaemic vs non-hypoglycaemic days\",\n",
+    "    \"Sleep structure on hypo vs non-hypo days\",\n",
     "    \"boxplot_sleep.png\",\n",
     ")\n"
    ]
@@ -2041,14 +2041,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 59.908656,
-   "end_time": "2025-11-15T11:24:58.541051",
+   "duration": 68.137999,
+   "end_time": "2025-11-15T11:38:52.294775",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-11-15T11:23:58.632395",
+   "start_time": "2025-11-15T11:37:44.156776",
    "version": "2.6.0"
   }
  },
