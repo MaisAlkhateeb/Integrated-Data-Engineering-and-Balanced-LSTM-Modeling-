@@ -72,6 +72,20 @@ Run preprocessing pipeline
 Generate hourly features + sequences
 Train models (LSTM / BiLSTM)
 Evaluate on patient-level split
+
+| Step                | What you did                        | Why                       |
+| ------------------- | ----------------------------------- | ------------------------- |
+| Data loading        | Parsed timestamps into date/hour    | Temporal alignment        |
+| Cleaning            | Converted features to numeric       | Remove noise/errors       |
+| Filtering           | Dropped missing CGM rows            | Avoid artificial data     |
+| Labeling            | Hypo ≤ 70 mg/dL                     | Define prediction target  |
+| Feature engineering | CGM + activity + sleep + physiology | Multimodal modeling       |
+| Aggregation         | Hourly + daily summaries            | Structured features       |
+| Hypo burden         | % hypo per day + binary day label   | Clinical relevance        |
+| Patient aggregation | Per-patient stats                   | Cohort analysis           |
+| Rolling features    | 6-hour windows                      | Capture temporal patterns |
+| Validation prep     | Stats + plots                       | Quality assurance         |
+
 --------------------------------------------------------------
 Pipeline Summary
 🔹 1. Data Engineering
