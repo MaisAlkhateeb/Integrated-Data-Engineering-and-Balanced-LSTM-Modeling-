@@ -83,7 +83,8 @@ Evaluate on patient-level split
 | Aggregation         | Hourly + daily summaries            | Structured features       |
 | Hypo burden         | % hypo per day + binary day label   | Clinical relevance        |
 | Patient aggregation | Per-patient stats                   | Cohort analysis           |
-| Rolling features    | 6-hour windows                      | Capture temporal patterns |
+| Rolling features    | 6- to 72hour windows                | Capture temporal patterns |
+| Rolling features    | 36 hour windows                     | Capture temporal patterns |
 | Validation prep     | Stats + plots                       | Quality assurance         |
 
 --------------------------------------------------------------
